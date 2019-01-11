@@ -116,7 +116,7 @@ public class Demineur {
 	 static int[] getInput() {
 		String in;
 		do {
-			System.out.print("\nEntrer Ligne espace Colonne> ");
+			System.out.print("\nEntrez Ligne espace Colonne> ");
 			in = kbr.nextLine();
 		} while (!in.matches("(\\d)([ ])(\\d)"));
 		return new int[] {Integer.parseInt(Character.toString(in.charAt(0))),
